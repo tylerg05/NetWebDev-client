@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Northwind</title>
+    <!-- bootsrap css -->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/bootstrap.pulse.min.css" />
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/client.css" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class="far fa-compass"></i> Northwind</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-coins"></i> Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="productDropdown">
+                        <a class="dropdown-item" href="#"><i class="fas fa-columns"></i> Browse Categories</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-search"></i> Product Search</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fas fa-tag"></i> Current Discounts</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-users"></i> Customers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="productDropdown">
+                        <a class="dropdown-item" href="#"><i class="fas fa-user-circle"></i> Account</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-edit"></i> Register</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline ml-auto d-none d-md-block">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Products" aria-label="Search">
+                <button class="btn btn-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+            </form>
+        </div>
+    </nav>
+    <div class="jumbotron container-fluid">
+        <h1 class="display-4">Northwind</h1>
+        <p class="lead">We have the best prices and selection of high quality foods & beverages on the planet! Check out our featured discounts below.</p>
+        <hr class="my-4">
+        <p>For spectacular international quisuine, look no further.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Order Now <i class="fas fa-angle-double-right"></i></a>
+    </div>
+
+
+    <!-- CDNs -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
